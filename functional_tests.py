@@ -4,7 +4,9 @@ from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 import unittest
 
 # set firefox binary to symlink in user directory (cask firefox)
-firefox_binary = FirefoxBinary('/Users/john/Applications/Firefox.app/Contents/MacOS/firefox-bin')
+firefox_binary = FirefoxBinary(
+    '/Users/john/Applications/Firefox.app/Contents/MacOS/firefox-bin'
+    )
 
 class NewVisitorTest(unittest.TestCase):
     
