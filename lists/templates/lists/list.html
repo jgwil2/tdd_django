@@ -3,7 +3,7 @@
 		<title>To-Do Lists</title>
 	</head>
 	<body>
-		<form method="post" action="/">
+		<form method="post" action="/lists/">
 			<input name="item_text" id="id_new_item" placeholder="Enter a to-do item" />
 			{% csrf_token %}
 			<input type="submit" value="Enter" />
